@@ -1,5 +1,4 @@
 
-
 //  turn page
 
 let turnPageBtn = document.querySelectorAll('.page-change')
@@ -9,13 +8,7 @@ turnPageBtn.forEach((el, index) => {
         let pageTurnId = el.getAttribute('data-page')
         if (!pageTurnId) return
 
-        // pause video when chang page
-
-        let videos = document.querySelectorAll('video')
-
-        videos.forEach((el_1) => {
-            el_1.pause()
-        })
+      
         
         let pageTurn = document.getElementById(pageTurnId)
 
@@ -31,21 +24,8 @@ turnPageBtn.forEach((el, index) => {
     }
 })
 
-// handle videos
 
-let videos = document.querySelectorAll('video')
 
-videos.forEach((el) => {
-    el.onplay = () => {
-        videos.forEach((el_1) => {
-            if (el === el_1) {
-                el.play()
-            } else {
-                el_1.pause()
-            }
-        })
-    }
-})
 
 
 // start up animation
