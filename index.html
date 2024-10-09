@@ -3,118 +3,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Portfolio Semester 2
-    </title>
-    <!--FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <!--PAGE ARROW SYMBOLS-->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Book</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/77ec007995.js" crossorigin="anonymous"></script>
 </head>
+<body>
+    <!-- Previous Button -->
+    <button id="prev-btn">
+        <i class="fas fa-arrow-circle-left"></i>
+    </button>
 
-<body class="align-item-center">
 
-    <!-- BOOK WRAP -->
-    <div class="book-wrap">
-        <!-- FRONT COVER -->
-        <div class="cover cover-left">
-            <img src="./assets/Cover.png" alt="Cover Image" class="cover-image">
+    <!-- Book -->
+    <div id="book" class="book">
+        <!-- Paper 1 -->
+        <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    <h1>Front 1</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <h1>Back 1</h1>
+                </div>
+            </div>
         </div>
-
-        <!-- BOOK -->
-        <div class="book">
-            <!-- PAGE 1-->
-            <div class="book-page">
-                <div class="text-center">
-                    <h1 class="title">
-                        Portfolio
-                    </h1>
-                    <br>
-                    <p class="general-text">
-                        I started creating this idea I had envisioned on 
-                        <a href="https://www.figma.com/design/EM8N5AAlutdnZpN8nnbxMD/portfolio?node-id=668-332&node-type=frame&t=cQjo6K55OHlvWXQT-0"
-                        target="_blank"><span class="txt-header">Figma</span></a>.
-                        I made different designs, one more journal looking and another one with a magazine style which I thought gave an elegant touch to the project.
+        <!-- Paper 2 -->
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <h1>Front 2</h1>
                 </div>
             </div>
-            <!-- end page -->
-            <!-- PAGE 5 -->
-            <div class="book-page page-right turn">
-                <!-- page 5 -->
-                <div class="page-front">
-                    <div class="wrap-content">
-                    </div>
+            <div class="back">
+                <div id="b2" class="back-content">
+                    <h1>Back 2</h1>
                 </div>
             </div>
-            <!-- END PAGE 5 -->
-            <!-- PAGE 3 + 4 -->
-            <div class="book-page page-right turn" id="page-3">
-                <!-- page 3 -->
-                <div class="page-front">
-                    <div class="wrap-content">
-                        <div class="page-change align-item-center" data-page="page-3">
-                             <i class='bx bx-right-arrow-alt'></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- page 4 -->
-                <div class="page-back">
-                    <div class="wrap-content">
-                        <div class="page-change back align-item-center" data-page="page-3">
-                            <i class='bx bx-left-arrow-alt'></i> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END PAGE 3 + 4 -->
-            <!-- PAGE 1 + 2 -->
-            <div class="book-page page-right turn" id="page-1">
-                <!-- page 1 -->
-                <div class="page-front flex-top">
-                    <div class="wrap-content">
- 
-                        <!-- turn page action -->
-                        <div class="page-change align-item-center" data-page="page-1">
-                             <i class='bx bx-right-arrow-alt'></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- end page 1 -->
-                <!-- page 2 -->
-                <div class="page-back">
-                    <div class="wrap-content">
-                        <p>
-                            In this video, I will show you how to make Responsive Food Landing Page with awesome
-                            animation just by using HTML, CSS
-                            and JavaScript.
-                        </p>
-                        <div class="page-change back align-item-center" data-page="page-1">
-                            <i class='bx bx-left-arrow-alt'></i> 
-                        </div>
-                    </div>
-                </div>
-                <!-- end page 2 -->
-            </div>
-            <!-- END PAGE 1 + 2 -->
         </div>
-                <!--BACK COVER-->
-                <div class="cover-right">
-                    <img src="./assets/Back.png" alt="Back Cover Image" class="cover-image">
+        <!-- Paper 3 -->
+        <div id="p3" class="paper">
+            <div class="front">
+                <div id="f3" class="front-content">
+                    <h1>Front 3</h1>
                 </div>
-        <!-- END BOOK -->
-
-        <div class="cover right"></div>
+            </div>
+            <div class="back">
+                <div id="b3" class="back-content">
+                    <h1>Back 3</h1>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- END BOOK WRAP -->
 
-
-
-    <script src="script.js"></script>
-
+    <!-- Next Button -->
+    <button id="next-btn">
+        <i class="fas fa-arrow-circle-right"></i>
+    </button>
 </body>
-
 </html>
