@@ -157,7 +157,7 @@ i {
     z-index: 1;
 }
 
-/* Portfolio - Two-column layout */
+/* Portfolio */
 .portfolio_container {
     column-count: 2;
     column-gap: 25px;
@@ -192,10 +192,30 @@ i {
 }
 
 /*Branding Blik*/
+.blik_container {
+    column-count: 2;
+    column-gap: 25px;
+    padding: 20px 0;
+}
+
+.blik_container2 {
+    column-count: 2;
+    column-gap: 25px;
+    padding: 20px 0;
+}
+
 .blik_collage{
     width: 50%;
 }
 
 .blik_stylescape{
     width: 50%;
+}
+
+.blik_mockup1{
+    width:80%;
+}
+
+.blik_mockup2{
+    width:80%;
 }
