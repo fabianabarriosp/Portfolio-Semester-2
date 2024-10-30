@@ -191,6 +191,18 @@ i {
     justify-content: center;
 }
 
+.designtools{
+    width:20%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.initialMAGcover{
+    width:30%;
+    margin-top: -190px;
+    margin-left: 180px;
+}
+
 /*Branding Blik*/
 .blik_container {
     column-count: 2;
