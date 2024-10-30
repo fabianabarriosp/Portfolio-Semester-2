@@ -159,20 +159,42 @@ i {
 
 /* Portfolio */
 .portfolio_container {
-    column-count: 2;
-    column-gap: 25px;
     padding: 20px 0;
 }
 
+.about-txt{
+    max-width: 45%;
+}
+
 .portfolio1{
-    width:100%;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    max-width:50%;
+    margin-left: 160px;
+    margin-top: -310px;
+    margin-bottom: 70px;
+}
+
+.designChoices-title{
+    max-width: 45%;
+    margin-left: 225px;
+}
+
+.designChoices-txt1{
+    max-width: 55%;
+    margin-left: 160px;
+    margin-top: -10px;
+    padding-bottom: 28px;
+}
+
+.designChoices-txt2{
+    max-width: 100%;
+    margin-top: -120px;
 }
 
 .portfolio2{
-    width:100%;
-    margin-top: 190px;
+    width:46%;
+    margin-right: 160px;
+    margin-top: -350px;
+    margin-bottom: 140px;
 }
 
 .portfolio_container p {
@@ -184,6 +206,8 @@ i {
     color: #ffffff;
     padding:15px;
     border: 2px dashed #fff;
+    margin-top: 20px;
+    margin-bottom:15px;
 }
 
 .feedback h2{
@@ -191,16 +215,29 @@ i {
     justify-content: center;
 }
 
+.designTools-txt{
+    max-width: 40%;
+    margin-top: -45px;
+    padding-bottom: 28px;
+}
+
 .designtools{
-    width:20%;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    max-width:18%;
+    margin-top: -155px;
+    margin-left: 130px;
 }
 
 .initialMAGcover{
-    width:30%;
-    margin-top: -190px;
-    margin-left: 180px;
+    width:38%;
+    margin-top: -188px;
+    margin-left: 195px;
+}
+
+.reflection-title{
+    margin-top: -17px;
+}
+.reflection-txt{
+    margin-top: -47px;
 }
 
 /*Branding Blik*/
