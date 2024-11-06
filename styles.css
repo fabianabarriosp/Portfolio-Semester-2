@@ -11,6 +11,7 @@
 }
 
 body {
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,7 +22,7 @@ body {
 /* Book */
 .book {
     position: relative;
-    width: 350px;
+    width: 410px;
     height: 500px;
     transition: transform 0.5s;
     margin-top: -50px;
@@ -127,7 +128,8 @@ button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 10px;
+    margin-top: -40px;
+    transform: translateY(-50%);
     transition: transform 0.5s;
 }
 
@@ -168,21 +170,22 @@ i {
 
 .portfolio1{
     max-width:50%;
-    margin-left: 160px;
-    margin-top: -310px;
+    margin-left: 188px;
+    margin-top: -150px;
     margin-bottom: 70px;
 }
 
 .designChoices-title{
     max-width: 45%;
-    margin-left: 225px;
+    margin-left: 280px;
+    margin-top: -27px;
 }
 
 .designChoices-txt1{
-    max-width: 55%;
-    margin-left: 160px;
-    margin-top: -10px;
-    padding-bottom: 28px;
+    max-width: 47%;
+    margin-left: 190px;
+    margin-top: -20px;
+    padding-bottom: 58px;
 }
 
 .designChoices-txt2{
@@ -193,7 +196,7 @@ i {
 .portfolio2{
     width:46%;
     margin-right: 160px;
-    margin-top: -350px;
+    margin-top: -260px;
     margin-bottom: 140px;
 }
 
@@ -201,36 +204,43 @@ i {
   margin-top: -10px;
 }
 
-.feedback{
+.feedback1{
     background-color: #676D79;
     color: #ffffff;
     padding:15px;
     border: 2px dashed #fff;
     margin-top: 20px;
     margin-bottom:15px;
+    margin-left: 40px;
+    width:80%;
 }
 
-.feedback h2{
+.feedback1 h2{
     display: flex;
     justify-content: center;
+    margin-bottom: -8px;
 }
 
+.designTools-title{
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
 .designTools-txt{
-    max-width: 40%;
-    margin-top: -45px;
+    max-width: 30%;
+    margin-top: -30px;
     padding-bottom: 28px;
 }
 
 .designtools{
     max-width:18%;
-    margin-top: -155px;
-    margin-left: 130px;
+    margin-top: -180px;
+    margin-left: 120px;
 }
 
 .initialMAGcover{
     width:38%;
-    margin-top: -188px;
-    margin-left: 195px;
+    margin-top: -220px;
+    margin-left: 200px;
 }
 
 .reflection-title{
@@ -242,8 +252,6 @@ i {
 
 /*Branding Blik*/
 .blik_container {
-    column-count: 2;
-    column-gap: 25px;
     padding: 20px 0;
 }
 
@@ -253,18 +261,173 @@ i {
     padding: 20px 0;
 }
 
+.about-title{
+    margin-bottom: 10px;
+}
+
+.about-txtblik{
+    margin-top:-20px;
+}
+
 .blik_collage{
-    width: 50%;
+    width: 38%;
+    margin-top:15px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.title1{
+    margin-top: -135px;
+    margin-left: 300px;
+}
+
+.moodboard-txt{
+    width: 42%;
+    margin-top:-15px;
+    margin-left: 210px;
 }
 
 .blik_stylescape{
-    width: 50%;
+    position:relative;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 213px;
+    margin-bottom: -10px;
 }
 
-.blik_mockup1{
-    width:80%;
+.title2{
+    margin-top: 10px;
+    margin-left: 300px;
 }
 
-.blik_mockup2{
-    width:80%;
+.stylescape-txt{
+    width: 42%;
+    margin-top:-10px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+.documentation-blik {
+    width: 110%;
+    margin-top: -10px;
+}
+
+.mockup-title{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.blik-mockup1{
+    position: relative;
+    width:95%;
+    margin-top: 165px;
+    margin-left: -180px;
+}
+
+.blik-mockup2{
+    position: relative;
+    width:95%;
+    top: -470px;
+    margin-left: 25px;
+}
+
+.feedback2{
+    position:relative;
+    font-size: 2px;
+    background-color: #676D79;
+    color: #ffffff;
+    padding:15px;
+    border: 2px dashed #fff;
+    width:51%;
+    margin-top: -210px;
+    margin-bottom:15px;
+}
+
+.feedback2 h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.presentation-title{
+    position: relative;
+    margin-top: -450px;
+    margin-left: 85px;
+}
+
+.presentation-txt{
+    position: relative;
+    width: 90%;
+    margin-top: -10px;
+}
+
+.blikbackground{
+    width:100%;
+    height:557px;
+    margin-left: -20px;
+    margin-top: -10px;
+    position: absolute; 
+    z-index: 1;
+}
+
+.visuals-title{
+    z-index: 283;
+    position: relative; 
+    margin-left:320px;
+    margin-top: 20px;
+}
+.visuals-txt{
+    width:40%;
+    z-index: 283;
+    position: relative; 
+    margin-left: 210px;
+    margin-top: -50px;
+}
+
+.contentstrategy-title{
+    z-index: 283;
+    position: relative; 
+    margin-left:5px;
+    margin-top: -10px;
+}
+
+.contentstrategy-txt{
+    width:30%;
+    z-index: 283;
+    position: relative; 
+    margin-left: 5px;
+    margin-top: -50px;
+}
+
+.presentation2-title{
+    position: relative; 
+    margin-left:10px;
+    margin-top: 0px;
+}
+
+.presentation2-txt{
+    width:200%;
+    position: relative; 
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.presenting{
+    width:200%;
+    margin-left: 10px;
+    margin-top: -20px;
+    position:relative;
+}
+
+.reflection2-title{
+    margin-left: 20px;
+    margin-top: 60px;
+    position: relative; 
+}
+
+.reflection2-txt{
+    width:200%;
+    margin-top: -330px;
+    margin-left: -185px;
+    position: relative; 
 }

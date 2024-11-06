@@ -9,7 +9,14 @@ const papers = [
     document.querySelector("#p3"),
     document.querySelector("#p4"),
     document.querySelector("#p5"),
-    document.querySelector("#p6")
+    document.querySelector("#p6"),
+    document.querySelector("#p7"),
+    document.querySelector("#p8"),
+    document.querySelector("#p9"),
+    document.querySelector("#p10"),
+    document.querySelector("#p11"),
+    document.querySelector("#p12"),
+    document.querySelector("#p13")
 ];
 
 // Event Listeners
@@ -18,7 +25,7 @@ nextBtn.addEventListener("click", goNextPage);
 
 // Logic
 let currentLocation = 1;
-let numOfPapers = papers.length;  // 6 papers = 12 pages
+let numOfPapers = papers.length;  // 13 papers = 26 pages
 let maxLocation = numOfPapers + 1;
 
 function openBook() {
