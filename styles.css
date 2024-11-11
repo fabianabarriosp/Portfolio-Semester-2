@@ -108,13 +108,15 @@ p{
     font-size: 0.7rem;
 }
 
-a {
-    z-index: 10; 
+.evidence-links {
     position: relative;
     color: #676D79; 
+    font-family: "Cabin", serif;
+    font-size: 12px;
     font-weight: bold;
     font-style: italic;
-    text-decoration: none; 
+    cursor:pointer;
+    z-index:3927381782122;
 }
 
 /* Paper flip effect */
@@ -124,6 +126,11 @@ a {
 }
 
 /* Controller Buttons */
+
+.next-btn{
+margin-top: 220px;
+}
+
 button {
     border: none;
     background-color: transparent;
@@ -400,34 +407,224 @@ i {
 }
 
 .presentation2-title{
-    position: relative; 
-    margin-left:10px;
-    margin-top: 0px;
+    margin-left:15px;
+    margin-top: 20px;
 }
 
 .presentation2-txt{
-    width:200%;
-    position: relative; 
-    margin-left: 10px;
-    margin-top: 50px;
-}
-
-.presenting{
-    width:200%;
-    margin-left: 10px;
-    margin-top: -20px;
-    position:relative;
+    width:90%;
+    margin-left: 15px;
+    margin-top: -50px;
 }
 
 .reflection2-title{
-    margin-left: 20px;
-    margin-top: 60px;
-    position: relative; 
+    margin-left: 15px;
+    margin-top: 230px;
+    margin-bottom: -160px;
 }
 
 .reflection2-txt{
-    width:200%;
-    margin-top: -330px;
-    margin-left: -185px;
-    position: relative; 
+    width:90%;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+
+.presenting{
+    width:90%;
+    margin-left: 15px;
+    margin-top:-390px;
+}
+
+/*Layout Exercise*/
+.layout1{
+    width:43%;
+    margin-left: 200px;
+    margin-top: -140px;
+}
+
+.layout2{
+    width:45%;
+    margin-left: 5px;
+    margin-top: -90px;
+    margin-bottom: 10px;
+}
+
+.design-titleLAYOUT{
+    margin-top: -95px;
+    margin-left: 325px;
+}
+
+.design-txtLAYOUT{
+    width:45%;
+    margin-left: 195px;
+    margin-top: -220px;
+    margin-bottom: -40px;
+}
+
+.reflectionLAYOUT-title{
+    margin-top: -30px;
+    margin-left: 5px;
+}
+
+.reflectionLAYOUT-txt{
+    position: relative;
+    width:45%;
+    margin-left: 5px;
+    margin-top: -220px;
+}
+
+.layout3{
+    position: relative;
+    width:45%;
+    height:22%;
+    margin-left: 195px;
+    margin-top: -150px;
+}
+
+/*fiddle exercise*/ 
+.fiddle_container {
+    padding: 20px 0;
+}
+
+.about-titlefiddle{
+    margin-left: 2px;
+}
+
+.about-txtfiddle{
+    width:95%;
+    margin-left: 2px;
+    margin-top: -10px;
+}
+
+.feedback3 h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+.feedback3{
+    position:relative;
+    font-size: 2px;
+    background-color: #676D79;
+    color: #ffffff;
+    padding:15px;
+    border: 2px dashed #fff;
+    width:45%;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.docnews-title{
+    position:relative;
+    margin-left: 270px;
+    margin-top: -305px;
+}
+
+.docnews-txt{
+    position:relative;
+    width:43%;
+    margin-left: 200px;
+    margin-top: -10px;
+}
+
+.newspaperwebsite{
+    position:relative;
+    width:45%;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.reflectionFIDDLE-title{
+    position: relative;
+    margin-top: 155px;
+    margin-left: 295px;
+}
+
+.reflectionFIDDLE-txt{
+    position: relative;
+    width:95%;
+    margin-left: 5px;
+    margin-top: -8px;
+}
+
+/*Monk*/
+.monk_container{
+    padding: -5px 0;
+}
+
+.about-titleMonk{
+    margin-left: 2px;
+}
+
+.about-txtMonk{
+    width:95%;
+    margin-left: 2px;
+    margin-top: -10px;
+}
+
+.monk1{
+    width:46%;
+    margin-top: -31px;
+    margin-left: -5px;
+}
+
+.Design1Monk-title{
+    margin-left: 310px;
+    margin-top: -150px;
+}
+.Design1Monk-txt{
+    width:40%;
+    margin-left: 205px;
+    margin-top: -10px;
+}
+
+.monk2{
+    margin-top: -23px;
+    margin-left: 185px;
+    width:48%;
+}
+
+.Design2Monk-title{
+    position: relative;
+    margin-left: 4px;
+    margin-top: -235px;
+}
+.Design2Monk-txt{
+    position: relative;
+    width:45%;
+    margin-left: 4px;
+    margin-top: -10px;
+}
+
+.monk3{
+    position: relative;
+    margin-top: -45px;
+    margin-left: 15px;
+    width:75%;
+}
+
+.Design3Monk-title{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 330px;
+}
+.Design3Monk-txt{
+    position: absolute;
+    width:85%;
+    margin-left: 10px;
+    margin-top: 345px;
+}
+
+
+
+/*Learning Outcomes*/
+.LO-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    font-size: 18px;
+}
+
+.a{
+    font-family: cab;
 }
