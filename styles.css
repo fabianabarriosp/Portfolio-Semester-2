@@ -81,7 +81,8 @@ body {
 }
 
 .back-cover {
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
+    width:100%;
 }
 
 .back-cover img,
@@ -614,17 +615,72 @@ i {
     margin-top: 345px;
 }
 
+.monk_container2{
+width:90%;
+
+}
+.monk-brainstorming{
+    width:5%;
+}
+
 
 
 /*Learning Outcomes*/
-.LO-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:30px;
-    font-size: 18px;
+/* Button Styles */
+#popup-button {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 46px;
+    border-radius: 5px;
+    z-index: 99999;
 }
 
-.a{
-    font-family: cab;
+/* Popup Styles */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fffcab; /* Sticky note color */
+    border: 2px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    max-width: 90%;
+    z-index: 1000;
+    text-align: center;
+    display: none;
+    border-radius: 10px;
+}
+
+.popup h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.popup p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.popup .evidence-links a {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.popup .evidence-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hidden class for toggling visibility */
+.hidden {
+    display: none;
 }

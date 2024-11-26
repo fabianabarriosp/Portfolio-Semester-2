@@ -31,7 +31,7 @@ let maxLocation = numOfPapers + 1;
 function openBook() {
     book.style.transform = "translateX(50%)";
     prevBtn.style.transform = "translateX(-180px)";
-    nextBtn.style.transform = "translateX(500px)";
+    nextBtn.style.transform = "translateX(50px)";
 }
 
 function closeBook(isAtBeginning) {
@@ -78,3 +78,22 @@ function goPrevPage() {
         }
     }
 }
+
+
+//Sticky note / learning outcomes
+// Get elements
+const popupButton = document.getElementById('popup-button');
+const popup = document.getElementById('popup');
+const closeButton = document.getElementById('close-popup');
+
+// Show popup
+popupButton.addEventListener('click', () => {
+    popup.classList.remove('hidden');
+    popup.style.display = 'block';
+});
+
+// Close popup
+closeButton.addEventListener('click', () => {
+    popup.classList.add('hidden');
+    popup.style.display = 'none';
+});
